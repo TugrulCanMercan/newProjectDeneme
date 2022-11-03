@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E436B15328F1DDD800D5AE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B15228F1DDD800D5AE15 /* AppDelegate.swift */; };
+		E436B15528F1DDD800D5AE15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B15428F1DDD800D5AE15 /* SceneDelegate.swift */; };
+		E436B15728F1DDD800D5AE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B15628F1DDD800D5AE15 /* ViewController.swift */; };
+		E436B15A28F1DDD800D5AE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E436B15828F1DDD800D5AE15 /* Main.storyboard */; };
+		E436B15C28F1DDD900D5AE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E436B15B28F1DDD900D5AE15 /* Assets.xcassets */; };
+		E436B15F28F1DDD900D5AE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E436B15D28F1DDD900D5AE15 /* LaunchScreen.storyboard */; };
+		E436B16A28F1DE6600D5AE15 /* DIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B16828F1DE6600D5AE15 /* DIManager.swift */; };
+		E436B16B28F1DE6600D5AE15 /* EnglishTinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B16928F1DE6600D5AE15 /* EnglishTinderApp.swift */; };
+		E436B18A28F1DE6D00D5AE15 /* DIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B16F28F1DE6D00D5AE15 /* DIManager.swift */; };
+		E436B18B28F1DE6D00D5AE15 /* EnglishTinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B17028F1DE6D00D5AE15 /* EnglishTinderApp.swift */; };
+		E436B18C28F1DE6D00D5AE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E436B17128F1DE6D00D5AE15 /* Assets.xcassets */; };
+		E436B18D28F1DE6D00D5AE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E436B17228F1DE6D00D5AE15 /* LaunchScreen.storyboard */; };
+		E436B18E28F1DE6D00D5AE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E436B17428F1DE6D00D5AE15 /* Main.storyboard */; };
+		E436B18F28F1DE6D00D5AE15 /* EnglishToTurkisRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B17828F1DE6D00D5AE15 /* EnglishToTurkisRepositoryProtocol.swift */; };
+		E436B19028F1DE6D00D5AE15 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B17A28F1DE6D00D5AE15 /* CardModel.swift */; };
+		E436B19128F1DE6D00D5AE15 /* GetEnglishToTurkish.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B17C28F1DE6D00D5AE15 /* GetEnglishToTurkish.swift */; };
+		E436B19228F1DE6D00D5AE15 /* EnglishToTurkishRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B17F28F1DE6D00D5AE15 /* EnglishToTurkishRepository.swift */; };
+		E436B19328F1DE6D00D5AE15 /* APIEndpoint+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B18128F1DE6D00D5AE15 /* APIEndpoint+Factory.swift */; };
+		E436B19428F1DE6D00D5AE15 /* EnglishToTurkishDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B18528F1DE6D00D5AE15 /* EnglishToTurkishDTO.swift */; };
+		E436B19528F1DE6D00D5AE15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436B18828F1DE6D00D5AE15 /* ContentView.swift */; };
+		E436B19628F1DE6D00D5AE15 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E436B18928F1DE6D00D5AE15 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E436B14F28F1DDD800D5AE15 /* EnglishTinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishTinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E436B15228F1DDD800D5AE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E436B15428F1DDD800D5AE15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E436B15628F1DDD800D5AE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E436B15928F1DDD800D5AE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E436B15B28F1DDD900D5AE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E436B15E28F1DDD900D5AE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E436B16028F1DDD900D5AE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E436B16828F1DE6600D5AE15 /* DIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIManager.swift; sourceTree = "<group>"; };
+		E436B16928F1DE6600D5AE15 /* EnglishTinderApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishTinderApp.swift; sourceTree = "<group>"; };
+		E436B16F28F1DE6D00D5AE15 /* DIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIManager.swift; sourceTree = "<group>"; };
+		E436B17028F1DE6D00D5AE15 /* EnglishTinderApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishTinderApp.swift; sourceTree = "<group>"; };
+		E436B17128F1DE6D00D5AE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E436B17328F1DE6D00D5AE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E436B17528F1DE6D00D5AE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E436B17828F1DE6D00D5AE15 /* EnglishToTurkisRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishToTurkisRepositoryProtocol.swift; sourceTree = "<group>"; };
+		E436B17A28F1DE6D00D5AE15 /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		E436B17C28F1DE6D00D5AE15 /* GetEnglishToTurkish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetEnglishToTurkish.swift; sourceTree = "<group>"; };
+		E436B17F28F1DE6D00D5AE15 /* EnglishToTurkishRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishToTurkishRepository.swift; sourceTree = "<group>"; };
+		E436B18128F1DE6D00D5AE15 /* APIEndpoint+Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIEndpoint+Factory.swift"; sourceTree = "<group>"; };
+		E436B18528F1DE6D00D5AE15 /* EnglishToTurkishDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishToTurkishDTO.swift; sourceTree = "<group>"; };
+		E436B18828F1DE6D00D5AE15 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E436B18928F1DE6D00D5AE15 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E436B14C28F1DDD800D5AE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E436B14628F1DDD800D5AE15 = {
+			isa = PBXGroup;
+			children = (
+				E436B16C28F1DE6D00D5AE15 /* EnglishTinderApp */,
+				E436B16628F1DE6600D5AE15 /* ApplicationSrc */,
+				E436B15128F1DDD800D5AE15 /* EnglishTinderApp */,
+				E436B15028F1DDD800D5AE15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E436B15028F1DDD800D5AE15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E436B14F28F1DDD800D5AE15 /* EnglishTinderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E436B15128F1DDD800D5AE15 /* EnglishTinderApp */ = {
+			isa = PBXGroup;
+			children = (
+				E436B15228F1DDD800D5AE15 /* AppDelegate.swift */,
+				E436B15428F1DDD800D5AE15 /* SceneDelegate.swift */,
+				E436B15628F1DDD800D5AE15 /* ViewController.swift */,
+				E436B15828F1DDD800D5AE15 /* Main.storyboard */,
+				E436B15B28F1DDD900D5AE15 /* Assets.xcassets */,
+				E436B15D28F1DDD900D5AE15 /* LaunchScreen.storyboard */,
+				E436B16028F1DDD900D5AE15 /* Info.plist */,
+			);
+			path = EnglishTinderApp;
+			sourceTree = "<group>";
+		};
+		E436B16628F1DE6600D5AE15 /* ApplicationSrc */ = {
+			isa = PBXGroup;
+			children = (
+				E436B16728F1DE6600D5AE15 /* DIContainer */,
+				E436B16928F1DE6600D5AE15 /* EnglishTinderApp.swift */,
+			);
+			name = ApplicationSrc;
+			path = EnglishTinderApp/ApplicationSrc;
+			sourceTree = "<group>";
+		};
+		E436B16728F1DE6600D5AE15 /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				E436B16828F1DE6600D5AE15 /* DIManager.swift */,
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		E436B16C28F1DE6D00D5AE15 /* EnglishTinderApp */ = {
+			isa = PBXGroup;
+			children = (
+				E436B16D28F1DE6D00D5AE15 /* ApplicationSrc */,
+				E436B17128F1DE6D00D5AE15 /* Assets.xcassets */,
+				E436B17228F1DE6D00D5AE15 /* LaunchScreen.storyboard */,
+				E436B17428F1DE6D00D5AE15 /* Main.storyboard */,
+				E436B17628F1DE6D00D5AE15 /* Domain */,
+				E436B17D28F1DE6D00D5AE15 /* DataLayer */,
+				E436B18628F1DE6D00D5AE15 /* Presentation */,
+				E436B18928F1DE6D00D5AE15 /* Info.plist */,
+			);
+			path = EnglishTinderApp;
+			sourceTree = "<group>";
+		};
+		E436B16D28F1DE6D00D5AE15 /* ApplicationSrc */ = {
+			isa = PBXGroup;
+			children = (
+				E436B16E28F1DE6D00D5AE15 /* DIContainer */,
+				E436B17028F1DE6D00D5AE15 /* EnglishTinderApp.swift */,
+			);
+			path = ApplicationSrc;
+			sourceTree = "<group>";
+		};
+		E436B16E28F1DE6D00D5AE15 /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				E436B16F28F1DE6D00D5AE15 /* DIManager.swift */,
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		E436B17628F1DE6D00D5AE15 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E436B17728F1DE6D00D5AE15 /* IRepository */,
+				E436B17928F1DE6D00D5AE15 /* CardModel */,
+				E436B17B28F1DE6D00D5AE15 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E436B17728F1DE6D00D5AE15 /* IRepository */ = {
+			isa = PBXGroup;
+			children = (
+				E436B17828F1DE6D00D5AE15 /* EnglishToTurkisRepositoryProtocol.swift */,
+			);
+			path = IRepository;
+			sourceTree = "<group>";
+		};
+		E436B17928F1DE6D00D5AE15 /* CardModel */ = {
+			isa = PBXGroup;
+			children = (
+				E436B17A28F1DE6D00D5AE15 /* CardModel.swift */,
+			);
+			path = CardModel;
+			sourceTree = "<group>";
+		};
+		E436B17B28F1DE6D00D5AE15 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				E436B17C28F1DE6D00D5AE15 /* GetEnglishToTurkish.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		E436B17D28F1DE6D00D5AE15 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E436B17E28F1DE6D00D5AE15 /* Repository */,
+				E436B18028F1DE6D00D5AE15 /* Network */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		E436B17E28F1DE6D00D5AE15 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E436B17F28F1DE6D00D5AE15 /* EnglishToTurkishRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E436B18028F1DE6D00D5AE15 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E436B18128F1DE6D00D5AE15 /* APIEndpoint+Factory.swift */,
+				E436B18228F1DE6D00D5AE15 /* DataMapping */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E436B18228F1DE6D00D5AE15 /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				E436B18328F1DE6D00D5AE15 /* EnglishToTurkishDTO */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		E436B18328F1DE6D00D5AE15 /* EnglishToTurkishDTO */ = {
+			isa = PBXGroup;
+			children = (
+				E436B18428F1DE6D00D5AE15 /* Response */,
+			);
+			path = EnglishToTurkishDTO;
+			sourceTree = "<group>";
+		};
+		E436B18428F1DE6D00D5AE15 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				E436B18528F1DE6D00D5AE15 /* EnglishToTurkishDTO.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		E436B18628F1DE6D00D5AE15 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E436B18728F1DE6D00D5AE15 /* EnglishTinderCard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E436B18728F1DE6D00D5AE15 /* EnglishTinderCard */ = {
+			isa = PBXGroup;
+			children = (
+				E436B18828F1DE6D00D5AE15 /* ContentView.swift */,
+			);
+			path = EnglishTinderCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E436B14E28F1DDD800D5AE15 /* EnglishTinderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E436B16328F1DDD900D5AE15 /* Build configuration list for PBXNativeTarget "EnglishTinderApp" */;
+			buildPhases = (
+				E436B14B28F1DDD800D5AE15 /* Sources */,
+				E436B14C28F1DDD800D5AE15 /* Frameworks */,
+				E436B14D28F1DDD800D5AE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnglishTinderApp;
+			productName = EnglishTinderApp;
+			productReference = E436B14F28F1DDD800D5AE15 /* EnglishTinderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E436B14728F1DDD800D5AE15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E436B14E28F1DDD800D5AE15 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E436B14A28F1DDD800D5AE15 /* Build configuration list for PBXProject "EnglishTinderApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E436B14628F1DDD800D5AE15;
+			productRefGroup = E436B15028F1DDD800D5AE15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E436B14E28F1DDD800D5AE15 /* EnglishTinderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E436B14D28F1DDD800D5AE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E436B15F28F1DDD900D5AE15 /* LaunchScreen.storyboard in Resources */,
+				E436B15C28F1DDD900D5AE15 /* Assets.xcassets in Resources */,
+				E436B18C28F1DE6D00D5AE15 /* Assets.xcassets in Resources */,
+				E436B18E28F1DE6D00D5AE15 /* Main.storyboard in Resources */,
+				E436B18D28F1DE6D00D5AE15 /* LaunchScreen.storyboard in Resources */,
+				E436B15A28F1DDD800D5AE15 /* Main.storyboard in Resources */,
+				E436B19628F1DE6D00D5AE15 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E436B14B28F1DDD800D5AE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E436B19228F1DE6D00D5AE15 /* EnglishToTurkishRepository.swift in Sources */,
+				E436B19428F1DE6D00D5AE15 /* EnglishToTurkishDTO.swift in Sources */,
+				E436B19528F1DE6D00D5AE15 /* ContentView.swift in Sources */,
+				E436B16B28F1DE6600D5AE15 /* EnglishTinderApp.swift in Sources */,
+				E436B15728F1DDD800D5AE15 /* ViewController.swift in Sources */,
+				E436B15328F1DDD800D5AE15 /* AppDelegate.swift in Sources */,
+				E436B18F28F1DE6D00D5AE15 /* EnglishToTurkisRepositoryProtocol.swift in Sources */,
+				E436B16A28F1DE6600D5AE15 /* DIManager.swift in Sources */,
+				E436B19328F1DE6D00D5AE15 /* APIEndpoint+Factory.swift in Sources */,
+				E436B19028F1DE6D00D5AE15 /* CardModel.swift in Sources */,
+				E436B18A28F1DE6D00D5AE15 /* DIManager.swift in Sources */,
+				E436B15528F1DDD800D5AE15 /* SceneDelegate.swift in Sources */,
+				E436B18B28F1DE6D00D5AE15 /* EnglishTinderApp.swift in Sources */,
+				E436B19128F1DE6D00D5AE15 /* GetEnglishToTurkish.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E436B15828F1DDD800D5AE15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E436B15928F1DDD800D5AE15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E436B15D28F1DDD900D5AE15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E436B15E28F1DDD900D5AE15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E436B17228F1DE6D00D5AE15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E436B17328F1DE6D00D5AE15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E436B17428F1DE6D00D5AE15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E436B17528F1DE6D00D5AE15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E436B16128F1DDD900D5AE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E436B16228F1DDD900D5AE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E436B16428F1DDD900D5AE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33MJ2M7WGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnglishTinderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TugrulCanMercan.EnglishTinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E436B16528F1DDD900D5AE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33MJ2M7WGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnglishTinderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TugrulCanMercan.EnglishTinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E436B14A28F1DDD800D5AE15 /* Build configuration list for PBXProject "EnglishTinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E436B16128F1DDD900D5AE15 /* Debug */,
+				E436B16228F1DDD900D5AE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E436B16328F1DDD900D5AE15 /* Build configuration list for PBXNativeTarget "EnglishTinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E436B16428F1DDD900D5AE15 /* Debug */,
+				E436B16528F1DDD900D5AE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E436B14728F1DDD800D5AE15 /* Project object */;
+}
